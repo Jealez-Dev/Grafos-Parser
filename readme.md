@@ -1,4 +1,4 @@
-markdown_content = """# Analizador y Parser de Grafos en Racket
+# Analizador y Parser de Grafos en Racket
 
 Este repositorio contiene una implementación en **Racket** de un analizador y clasificador de grafos, portado directamente desde una implementación original en Haskell. El programa es capaz de leer representaciones de grafos desde un archivo de texto, parsear su estructura matemática y evaluar de forma automatizada múltiples propiedades teóricas de los mismos.
 
