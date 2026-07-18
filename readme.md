@@ -1,6 +1,6 @@
-# Analizador y Parser de Grafos en Racket
+# Analizador y Parser de Grafos en Racket y Haskell
 
-Este repositorio contiene una implementación en **Racket** de un analizador y clasificador de grafos, portado directamente desde una implementación original en Haskell. El programa es capaz de leer representaciones de grafos desde un archivo de texto, parsear su estructura matemática y evaluar de forma automatizada múltiples propiedades teóricas de los mismos.
+Este repositorio contiene una implementación en **Racket y Haskell** de un analizador y clasificador de grafos, portado directamente desde una implementación original en Haskell. El programa es capaz de leer representaciones de grafos desde un archivo de texto, parsear su estructura matemática y evaluar de forma automatizada múltiples propiedades teóricas de los mismos.
 
 ## 🚀 Características y Propiedades Evaluadas
 
@@ -19,13 +19,15 @@ El programa analiza de forma centralizada cada grafo provisto y determina si cum
 
 ## 📋 Prerrequisitos
 
-Para ejecutar este proyecto, necesitas tener instalado **Racket** en tu sistema (versión 8.0 o superior recomendada).
+Para ejecutar este proyecto, necesitas tener instalado **Racket o Haskell** en tu sistema (versión 8.0 o superior recomendada).
 
 *   [Descargar e instalar Racket](https://racket-lang.org/)
+*   [Descargar e instalar Haskell](https://www.haskell.org/downloads/)
 
 ## 📂 Estructura del Proyecto
 
 ```text
 ├── Grafos-Parser.rkt  # Código fuente principal en Racket
+├── Grafos-Parser.hs  # Código fuente principal en Racket
 ├── Data.io            # Archivo de entrada con los grafos a analizar
 └── README.md          # Documentación del proyecto
